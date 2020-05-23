@@ -5,7 +5,6 @@ DESCRIPTION="Jenkins deployment in Kubernetes cluster"
 TS=$(date +%s)
 PROJECT_ID="$NAME-$TS"
 PROJECT_ID=$(echo "$PROJECT_ID" | tr '[:upper:]' '[:lower:]')
-LOG_FILE="${HOME}/$PROJECT_ID/deployment.log"
 SCRIPTS_DIR=$(pwd)
 
 mkdir $HOME/$PROJECT_ID
@@ -126,3 +125,4 @@ echo "Link| http://$JENKINS_URL"
 echo "Login| admin"
 echo "Password| $(cat ${HOME}/$PROJECT_ID/jenkins_admin.txt)"
 echo "Jenkins service account credentials You can find in $HOME/$PROJECT_ID folder"
+

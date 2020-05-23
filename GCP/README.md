@@ -12,3 +12,6 @@ https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes
 
 ### Can be interesting to take a look
 https://cloud.google.com/solutions/jenkins-on-kubernetes-engine
+https://helm.sh
+
+:point_right: "Automate everything You can" :point_left:
