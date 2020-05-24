@@ -125,4 +125,4 @@ echo "Link| http://$JENKINS_URL"
 echo "Login| admin"
 echo "Password| $(cat ${HOME}/$PROJECT_ID/jenkins_admin.txt)"
 echo "Jenkins service account credentials You can find in $HOME/$PROJECT_ID folder"
-
+echo `date`
